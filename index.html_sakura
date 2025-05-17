@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>非破壊検査　株式会社 さくら検査 | 非破壊検査　株式会社 さくら検査</title><!--[if lt IE 9]>
+<script src="html5.js" type="text/javascript"></script>
+<![endif]-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="basic2 home" id="hpb-sp-20-1011-01">
+    <div id="page" class="site">
+        <header id="masthead" class="site-header sp-part-top sp-header2" role="banner">
+            <div id="masthead-inner" class="sp-part-top sp-header-inner">
+                <div id="sp-site-branding2-1" class="sp-part-top sp-site-branding2">
+                    <h1 class="site-title sp-part-top sp-site-title" id=""><a href="index.html">非破壊検査　株式会社 さくら検査</a>
+                    </h1>
+                    <h2 class="site-description sp-part-top sp-catchphrase" id="">非破壊検査　株式会社 さくら検査</h2>
+                    <div class="extra sp-part-top sp-site-branding-extra" id="sp-site-branding-extra-1">
+                        <p class="tel paragraph">TEL. 045-755-3082</p>
+                        <p class="address paragraph">〒221-0864 神奈川県横浜市神奈川区菅田町1702番地1</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="main" class="site-main sp-part-top sp-main">
+            <div id="contenthead" class="sp-part-top sp-content-header">
+                <nav id="sp-site-navigation-1" class="navigation-main sp-part-top sp-site-navigation horizontal"
+                    role="navigation">
+                    <h1 class="menu-toggle">メニュー</h1>
+                    <div class="screen-reader-text skip-link"><a title="コンテンツへスキップ" href="#content">コンテンツへスキップ</a></div>
+                    <ul id="menu-mainnav">
+                        <li class="menu-item current_page_item"><a href="index.html">トップページ</a>
+                        <li class="menu-item"><a href="company.html">会社概要</a>
+                        <li class="menu-item"><a href="concept.html">経営理念・会社方針</a>
+                        <li class="menu-item"><a href="news.html">非破壊検査とは</a>
+                        <li class="menu-item"><a href="company1.html">資格一覧</a>
+                        <li class="menu-item"><a href="custom.html">保有装置・設備</a>
+                        <li class="menu-item"><a href="access.html">アクセス</a>
+                        <li class="menu-item"><a href="recruit.html">採用情報</a>
+                        <li class="menu-item"><a href="contact.html">お問い合わせ</a>
+                    </ul>
+                </nav>
+                <div id="sp-block-container-1" class="sp-part-top sp-block-container"><a style="display: block"><img
+                            id="sp-image-1" src="img/image4.JPG" class="sp-part-top sp-image"></a></div>
+            </div>
+            <div id="main-inner">
+                <div id="primary" class="content-area">
+                    <div id="content" class="site-content sp-part-top sp-content page-toppage" role="main">
+                        <article>
+                            <div id="page-content" class="sp-part-top sp-block-container"><span class="character"
+                                    style="font-size : 2rem;">◆非破壊検査◆株式会社さくら検査は物を壊したり分解をせず、外部から直接見ることの</span><span
+                                    class="character" style="font-size : 2rem;">できない</span><br><span class="character"
+                                    style="font-size : 2rem;">内部の欠陥を専門検査技術者が調査・評価し、構造物の品質確認をする専門会社です。</span><br>
+                                <p class="paragraph"> </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="colophon" class="site-footer sp-part-top sp-footer2" role="contentinfo">
+            <div id="colophon-inner" class="sp-part-top sp-footer-inner">
+                <nav id="sp-site-navigation-2" class="navigation-main sp-part-top sp-site-navigation minimal"
+                    role="navigation">
+                    <h1 class="menu-toggle">メニュー</h1>
+                    <div class="screen-reader-text skip-link"><a title="コンテンツへスキップ" href="#content">コンテンツへスキップ</a></div>
+                    <ul id="menu-mainnav">
+                        <li class="menu-item"><a href="privacy.html">プライバシーポリシー</a>
+                    </ul>
+                </nav>
+                <div id="sp-block-container-2" class="sp-part-top sp-block-container">
+                    <p class="copyright paragraph">Copyright &copy; sakurakensa, All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="navigation.js"></script>
+</body>
+
+</html>
