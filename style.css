@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;              /* 幅100% */
+  height: 100px;             /* 高さ100px */
+  position: fixed;         /* 相対位置 */
+  display: flex;              /* 横並びにする */
+  justify-content: space-between; /*左右に配置 */
+  /* align-items: center;        縦位置を揃える */
+  /* padding: 20px;             上下左右の余白 */
+  background-color: #ffffff; /* 背景色 */
+  /* 下に線をつける */
+  border-bottom: 1px solid #eaeaea; /* 下に線をつける */
+  align-items: stretch;
+  position: sticky;
+  top: 0;                     /* スクロールしても上に固定 */
+
+}
+
+
+
+.logo img {
+    top: 20px;                 /* 上に配置 */
+    width: 100%;              /* お好みでサイズ変更 */
+    height: 20px;              
+    /* 中央に配置 */
+    /* display: block; */
+    margin: 0 auto;
+}
+
+.site-title {
+  display: flex;
+   line-height:40px;
+  /* align-items: center;   縦位置を揃える */
+  gap: 10px;             /* 文字とロゴの間のスペース */
+  text-decoration: none;
+}
+
+.site-title h1 {
+  font-size: 1em;
+  margin: 0;
+    color: #000000;         /* 文字色 */
+    /* 下線を表示しない */
+}
+
+.site-title .logo img {
+  height: 100px;          /* ロゴサイズを調整 */
+  width: auto;
+}
+
+.nav-blocks {
+  display: flex;
+  height: 100%;
+  /* gap: 20px; */
+  /* justify-content: flex-end;  右寄せにする場合 */
+  /* padding: 150px; */
+
+  right: 400px;             /* 右からの距離 */
+
+}
+
+.nav-box {
+    right: 100px; 
+  /* display: flex;              */
+  background-color: #ffffff;
+  text-decoration: none;
+  width: 100px;             /* お好みでサイズ変更 */
+  height: 100%;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  line-height:100px;
+
+  /* border-radius: px; */
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s, box-shadow 0.3s; */
+}
+
+.nav-box:hover {
+    /* display: flex;  */
+    text-align: center;
+  height: 100%;
+  background-color: #e0e0e0;
+  /* box-shadow: 0 4px 10px rgba(0,0,0,0.15); */
+}
+
+/* 会社概要セクション全体のスタイル */
+#co_outline {
+  max-width: 800px;             /* 任意: セクションの横幅制限（ページレイアウトに応じて） */
+  margin: 2em auto;             /* 上下に十分な余白を確保（中央寄せ） */
+  padding: 1em;                 /* セクション内の上下左右余白 */
+  background-color: #fff;       /* 背景色（白）※ページ背景と異なる場合 */
+}
+
+/* 見出しスタイル */
+#co_outline h3 {
+  font-size: 1.5rem;            /* 大きめのフォントサイズでセクションタイトルを強調 */
+  font-weight: bold;
+  color: #2c3e50;               /* 落ち着いた濃色（企業テーマカラーに置き換え可） */
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid #4d9bc1; /* タイトル下にアクセントライン（企業カラー例：ブルー） */
+  padding-bottom: 0.2em;
+}
+
+/* テーブルのベーススタイル */
+#co_outline table {
+  width: 100%;
+  border-collapse: collapse;    /* 罫線の隙間をなくす */
+  font-size: 1rem;
+  line-height: 1.6;             /* 行間をやや広めに */
+  color: #333;
+}
+
+/* テーブルセル共通スタイル */
+#co_outline th,
+#co_outline td {
+  padding: 0.5em 1em;           /* セル内の余白を上下0.5em・左右1emに設定 */
+  text-align: left;
+  vertical-align: top;          /* 複数行になった場合に上揃え */
+  border-bottom: 1px solid #ddd;/* 行の区切り線（淡いグレー） */
+}
+
+/* テーブルヘッダーセル（項目名）スタイル */
+#co_outline th {
+  font-weight: bold;
+  background-color: #f7f7f7;    /* 背景色を薄いグレーで項目名欄を強調（ブランドカラーでも可） */
+  min-width: 6em;              /* 項目セルの最小幅を指定し狭い画面での折返しを軽減 */
+}
+
+/* テーブルデータセル（内容）スタイル */
+#co_outline td {
+  /* 必要に応じて個別スタイル。ここでは背景色は白（親の背景と同じ） */
+}
+
+/* 最終行のボーダーを消してすっきりさせる */
+#co_outline tr:last-child th,
+#co_outline tr:last-child td {
+  border-bottom: none;
+}
+
+/* ホバー時の行ハイライト（PC向け） */
+#co_outline tr {
+  transition: background-color 0.3s;
+}
+#co_outline tr:hover {
+  background-color: #f0f8ff;    /* ホバー時に行全体を淡いブルーで強調（Azureカラー） */
+}
+
+/* スマートフォン向けレスポンシブ対応 */
+@media screen and (max-width: 600px) {
+  #co_outline table,
+  #co_outline tr,
+  #co_outline th,
+  #co_outline td {
+    display: block;            /* テーブル・行・セルをブロック要素化 */
+    width: 100%;               /* 横幅100%で縦に積み重なるように */
+  }
+  #co_outline tr {
+    margin-bottom: 1em;        /* 各行ブロックに下マージンをつけ区切りを明確に */
+  }
+  #co_outline th {
+    background-color: #eef5f9; /* モバイルでは項目名セルを薄い色で塗りつぶし */
+    border-bottom: none;       /* 項目名セルの下線は消す（内容セルの下線と二重にならないように） */
+    font-size: 1.1rem;         /* 項目名をやや大きめにして区切りラベルであることを示す */
+    padding: 0.5em 0.5em;      /* スマホでは左右余白を少し減らして画面幅を有効活用 */
+  }
+  #co_outline td {
+    border-bottom: 1px solid #ddd; /* 各項目ペアの区切り線は内容セル側のみに適用 */
+    padding: 0.5em 0.5em 1em;      /* 下側に余白を多めにとり次の項目と間隔を空ける */
+  }
+}
+
+.site-footer {
+  background-color: #f5f5f5;       /* 優しいグレー背景 */
+  color: #333;
+  font-size: 0.9em;
+  padding: 20px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.sp-footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.navigation-main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navigation-main a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navigation-main a:hover {
+  color: #007bff; /* ホバー時の色 */
+}
+
+.copyright {
+  margin: 0;
+  color: #666;
+  font-size: 0.85em;
+}
